@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './App.css';
 function App() {
   return (
     <>
@@ -16,7 +16,7 @@ class Board extends React.Component {
   render(){
 
     return(
-
+      <body>
       <div>
       <div className='row'>
       {this.renderSquare(1,',.?!')}
@@ -34,7 +34,7 @@ class Board extends React.Component {
       {this.renderSquare(9,'WXYZ')}
       </div>
       </div>
-
+      </body>
 
     );
 

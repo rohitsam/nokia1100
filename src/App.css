@@ -1,0 +1,27 @@
+body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  .Txt{
+
+    color: rgb(30, 23, 23);
+
+
+
+  }
+  .Num{
+
+    color:rgb(22, 19, 19);
+    font-family: Sans-Serif;
+
+  }
+  button{
+    background-color: #f2f5fb;
+    width:50px;
+    height:50px;
+    border-radius: 5px;
+
+
+  }
