@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 function App() {
   return (
@@ -56,10 +55,10 @@ class Square extends React.Component {
   render() {
     return (
       <button className="square" onClick={()=>console.log(this.props.value)}>
-        <div className='top'>
+        <div className='Num'>
         {this.props.value} 
         </div>
-        <div className='bot'>
+        <div className='Txt'>
         {this.props.txt} 
         </div>   
       </button>
