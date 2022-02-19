@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+const TITLE = 'Nokia1100'
 function App() {
   return (
     <>
@@ -16,6 +17,11 @@ class Board extends React.Component {
   render(){
 
     return(
+      <>
+      <head>
+        <title>{ TITLE }</title>
+        <link rel="icon" href="../nokia1100.png" />
+      </head>
       <body>
       <div>
       <div className='row'>
@@ -35,6 +41,7 @@ class Board extends React.Component {
       </div>
       </div>
       </body>
+      </>
 
     );
 
